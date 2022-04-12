@@ -2,7 +2,7 @@
 
 VELOCITY = 1  # 1 KM/min
 
-PC_KM = 0.02  # % of battery/KM
+PC_KM = 0.002  # % of battery/KM
 
 
 def calculate_time_cost(inp, order, charge):
@@ -65,9 +65,11 @@ def evaluate(inp, order, charge):
     """
 
     if battery_check(inp, order, charge) != 0:
+        print("You don't have a valid charging scheme.")
         return "You don't have a valid charging scheme."
 
     if order_check(order, inp) != 0:
+        print("Invalid order.")
         return "Invalid order."
 
     return calculate_time_cost(inp, order, charge)
