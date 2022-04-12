@@ -41,7 +41,21 @@ ______
 
 ## Rules: 
 
-r1. Your solution must be quantum-inspired.
+ru1. Your solution must be quantum-inspired.
 
-r2. Feel free to use whatever quantum computing library you want.
+ru2. Feel free to use whatever quantum computing library you want.
+
+
+## Ressources:
+
+Re1: https://pennylane.ai/qml/demonstrations.html
+
+Re2: https://qiskit.org/textbook/content/ch-ex/
+
+Re3: https://qiskit.org/documentation/optimization/tutorials/06_examples_max_cut_and_tsp.html
+
+Re4: https://arxiv.org/abs/1805.10928
+
+
+
 
