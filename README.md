@@ -27,7 +27,7 @@ s1. Fork this repository.
 
 s2. Build your approach in your repo.
 
-s3. Reise an Issue with the label  AprilSolution and the following format: 
+s3. Raise an Issue with the label  AprilSolution and the following format: 
 
 ______
 Mail: your_mail@gmail.com
